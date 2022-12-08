@@ -1,6 +1,6 @@
 import os
 print('Processing')
-for a in range(5):
+for a in range(31):
     path = os.getcwd() + '\\python\\Day ' + str(a + 1) + '\\'
     if not os.path.isdir(path):
         os.mkdir(path)
